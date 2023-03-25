@@ -33,22 +33,8 @@ void setup() {
 }
 
 void loop() {
-  // String str = "";
 
-  // char charBuf[str.length() + 1];
-
-  // str.toCharArray(charBuf, str.length() + 1);
-
-  // // if (Serial.available()) {
-  // //   SerialBT.write(Serial.read());
-  // // }
-  // // if (SerialBT.available()) {
-  // //   Serial.write(SerialBT.read());
-  // // }
-  // // delay(20);
-  // SerialBT.write(3);
-
-    String str = "1.23,4.56,7.89";
+  String str = "1.23,4.56,7.89";
   
   // Chuyển đổi chuỗi thành mảng ký tự
   char charBuf[str.length() + 1];
